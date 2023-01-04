@@ -5,9 +5,9 @@
 void PrintIntroduction(int Difficulty) //allows us to pass values in the function
 {
     // Halo Triple X intro
-    std::cout << "You are Master Chief breaking into the Covenant's BattleShip with level " << Difficulty << " status \n" << std::endl;
+    std::cout << "You are a Space Soldier breaking into the Enemy's BattleShip with level " << Difficulty << " status \n" << std::endl;
     std::cout << "In order to get the secret codes from them regarding their cannon, you need to enter 3 exact codes to continue \n" << std::endl;
-    std::cout << "Cortana cannot help, so you will need to find the codes on your own \n" << std::endl;
+    std::cout << "Your AI companion QWERTY cannot help, so you will need to find the codes on your own \n" << std::endl;
     
 }
 bool PlayGame(int Difficulty) // function must return boolean
@@ -69,6 +69,6 @@ int main()
         }
         
     }
-    std::cout << "Well done Master Chief! You were able to have Cortana extract all the data! Now get outta there! \n";
+    std::cout << "Well done! You were able to have QWERTY extract all the data! Now get outta there! \n";
     return 0;
 }
